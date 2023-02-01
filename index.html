@@ -5,7 +5,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Anthony</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/node_modules/eins-modal/dist/css/eins-modal.min.css">
+    <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
@@ -109,7 +110,7 @@
            <section id="experience" class="even">
            <h3>Experience</h3>
            <hr />
-              <a>
+              <a data-modal-id="myModal" >
                     <img src="./html/assets/img/experience/1.svg">
                     <h4>Nombre del proyecto</h4>
               </a>
@@ -158,10 +159,19 @@
       <footer>
         <small>All rights reserved Anthony&nbsp;&copy;2021</small>
       </footer>
+      <div id="myModal" class="eins-modal">
+        <div class="eins-modal-content">
+          <div class="eins-modal-close"></div>
+      
+          Hola como estas
+          
+          <button class="eins-modal-close-button">HOLA JJJ</button>
+        </div>
+      </div>
 
       <script src="./mav.js"> </script>
       <script src="./fixed.js"></script>
- 
+      <script src="/node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
       
     
 </body>

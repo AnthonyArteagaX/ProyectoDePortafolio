@@ -1,0 +1,23 @@
+{
+  "name": "valeya",
+  "version": "1.0.0",
+  "description": "Pues intalando npm en mi portafolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyArteagaX/ProyectoDePortafolio.git"
+  },
+  "author": "Anthony Rafael Arteaga Guamán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyArteagaX/ProyectoDePortafolio/issues"
+  },
+  "homepage": "https://github.com/AnthonyArteagaX/ProyectoDePortafolio#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}
